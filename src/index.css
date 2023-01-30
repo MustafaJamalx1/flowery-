@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .menu-fade-in {
+    transition: opacity ease-in-out 200ms;
+    transition: height ease-in-out 400ms;
+  }
+}
