@@ -4,7 +4,7 @@ import Slope from "./parts/Slope";
 const Setup = () => {
   return (
     <div className="py-6 flex flex-col justify-center">
-      <h2 className="text-center font-semibold text-2xl">
+      <h2 className="text-center font-semibold text-2xl mb-24">
         How to start with Flowery
       </h2>
       <Steps title="Fill the required information" number="1" />
