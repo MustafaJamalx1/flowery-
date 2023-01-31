@@ -9,7 +9,7 @@ const NavBar = (props) => {
         <h1 className="text-xl font-paytone">Flowery</h1>
         <div
           onClick={props.func}
-          className="flex flex-col justify-between p-[.1rem]"
+          className="flex flex-col justify-between p-[.1rem] relative mr-2 w-[2rem]"
         >
           <HamBurgerMenu />
         </div>
@@ -17,7 +17,7 @@ const NavBar = (props) => {
 
       <div
         id="show-menu"
-        className={`absolute w-full h-0 left-0 bg-[#EFE5DC] flex flex-col justify-center items-center gap-6 cursor-pointer overflow-hidden translate-y-7 menu-fade-in`}
+        className={`absolute w-[92%] h-0 left-0 right-0 mx-auto bg-[#EFE5DC] flex flex-col justify-center items-center gap-6 cursor-pointer overflow-hidden translate-y-10 menu-fade-in rounded-[.6rem] border-0 border-[#D0B8AC] `}
       >
         <NavLink name="About us" />
         <Line />

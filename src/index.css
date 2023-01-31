@@ -3,7 +3,25 @@
 @tailwind utilities;
 @layer utilities {
   .menu-fade-in {
-    transition: opacity ease-in-out 200ms;
-    transition: height ease-in-out 400ms;
+    transition: ;
+    transition: height ease-in-out 400ms, opacity ease-in-out 200ms,
+      border ease-in-out 400ms;
+  }
+  .ham-animation2 {
+    d: path("M 16 1 L 17 1");
+  }
+  .ham-animatoin3 {
+    d: path("M1 1L33 29");
+  }
+  .ham-animatoin1 {
+    d: path("M1 29L33 1.00001");
+  }
+  .ham2 {
+    transition: all ease 400ms;
+  }
+
+  .ham3,
+  .ham1 {
+    transition: all ease 400ms 100ms;
   }
 }
