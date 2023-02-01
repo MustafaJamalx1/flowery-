@@ -17,7 +17,7 @@ const NavBar = (props) => {
 
       <div
         id="show-menu"
-        className={`absolute w-[92%] h-0 left-0 right-0 mx-auto bg-[#EFE5DC] flex flex-col justify-center items-center gap-6 cursor-pointer overflow-hidden translate-y-10 menu-fade-in rounded-[.6rem] border-0 border-[#D0B8AC] `}
+        className={`absolute w-[92%] h-0 left-0 right-0 mx-auto bg-[#EFE5DC] flex flex-col justify-center items-center gap-6 cursor-pointer overflow-hidden translate-y-14 menu-fade-in rounded-[.6rem] border-0 border-[#D0B8AC] `}
       >
         <NavLink name="About us" />
         <Line />

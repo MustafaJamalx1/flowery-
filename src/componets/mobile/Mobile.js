@@ -5,6 +5,8 @@ import Line from "./parts/Line";
 import SubHero from "./SubHero";
 import WeAreFlowery from "./WeAreFlowery";
 import Setup from "./Setup";
+import Features from "./Features";
+import Gallery from "./Gallery";
 const Mobile = () => {
   const [showMenu, setShowMenu] = React.useState(0);
   function handleClick() {
@@ -43,6 +45,10 @@ const Mobile = () => {
       <WeAreFlowery />
       <Line />
       <Setup />
+      <Line />
+      <Features />
+      <Line />
+      <Gallery />
       <Line />
     </div>
   );
