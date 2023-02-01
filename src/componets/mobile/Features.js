@@ -22,13 +22,13 @@ const Features = () => {
         imgP="3"
         img="notification-icon"
         title="Informative notification system"
-        p="with our notification system you’ll get personal email’s on the day of the event containing all the information you need with a picture of the flower’s you are giving."
+        p="with our notification system you`ll get personal email`s on the day of the event containing all the information you need with a picture of the flower`s you are giving."
       />
       <Feature
         imgP="2"
         img="delivery-icon"
         title="Fast and reliable delivery"
-        p="once you setup Flowery no need to every worry about the delivery time and efficiency. "
+        p="once you setup Flowery no need to every worry about the delivery time and efficiency. We got "
       />
     </div>
   );

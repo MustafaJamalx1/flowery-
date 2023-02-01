@@ -9,7 +9,7 @@ const NavBar = (props) => {
         <h1 className="text-xl font-paytone">Flowery</h1>
         <div
           onClick={props.func}
-          className="flex flex-col justify-between p-[.1rem] relative mr-2 w-[2rem]"
+          className="flex flex-col justify-between p-[.1rem] relative mr-2 w-[2rem] scale-[.95]"
         >
           <HamBurgerMenu />
         </div>
