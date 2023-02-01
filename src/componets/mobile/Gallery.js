@@ -2,7 +2,7 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="grid grid-cols-2 mt-[5rem] place  ">
+    <section className="grid grid-cols-2 mt-[5rem] place  mb-[6rem]">
       <img
         className="h-[16.1rem] border-4 rounded-[.6rem] border-[#D0B8AC] justify-self-end -mr"
         src="images/gallery-1.jpg"
@@ -18,7 +18,7 @@ const Gallery = () => {
         src="images/gallery-3.jpg"
         alt=""
       />
-    </div>
+    </section>
   );
 };
 

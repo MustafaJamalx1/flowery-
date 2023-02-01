@@ -7,6 +7,7 @@ import WeAreFlowery from "./WeAreFlowery";
 import Setup from "./Setup";
 import Features from "./Features";
 import Gallery from "./Gallery";
+import Plans from "./Plans";
 const Mobile = () => {
   const [showMenu, setShowMenu] = React.useState(0);
   function handleClick() {
@@ -50,6 +51,9 @@ const Mobile = () => {
       <Line />
       <Gallery />
       <Line />
+      <div className="w-full bg-[#732B2B] text-[#FFFFFF] py-6 plan-section-color -mt-8">
+        <Plans />
+      </div>
     </div>
   );
 };

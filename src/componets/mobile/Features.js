@@ -2,11 +2,11 @@ import React from "react";
 import Feature from "./parts/Feature";
 const Features = () => {
   return (
-    <div className="flex flex-col justify-center gap-10">
+    <section className="flex flex-col justify-center gap-10">
       <div>
         <p
           className="pl-10
-        pb-3 text-lg tracking-[1rem] font-semibold"
+        pb-5 text-sm tracking-[1rem] font-semibold text-center"
         >
           FEATURES
         </p>
@@ -30,7 +30,7 @@ const Features = () => {
         title="Fast and reliable delivery"
         p="once you setup Flowery no need to every worry about the delivery time and efficiency. We got "
       />
-    </div>
+    </section>
   );
 };
 

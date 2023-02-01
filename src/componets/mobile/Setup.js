@@ -3,7 +3,7 @@ import Steps from "./parts/Steps";
 import Slope from "./parts/Slope";
 const Setup = () => {
   return (
-    <div className="py-6 flex flex-col justify-center">
+    <section className="py-6 flex flex-col justify-center">
       <h2 className="text-center font-semibold text-2xl mb-24">
         How to start with Flowery
       </h2>
@@ -24,7 +24,7 @@ const Setup = () => {
         title="Congrats. No more unnecessary sleeping on the couch for you"
         number="4"
       />
-    </div>
+    </section>
   );
 };
 

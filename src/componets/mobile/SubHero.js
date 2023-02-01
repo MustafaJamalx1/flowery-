@@ -2,7 +2,7 @@ import React from "react";
 
 const SubHero = () => {
   return (
-    <div className="flex flex-col gap-3 my-4">
+    <section className="flex flex-col gap-3 my-4">
       <p className="pl-3 text-md font-bold">
         Do you always forget your significant partner birthday, first date,
         valentine
@@ -12,7 +12,7 @@ const SubHero = () => {
         required information with your special event's date and we guarantee
         your relationship will be better than ever.
       </p>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const WeAreFlowery = () => {
   return (
-    <div className="flex flex-col gap-3">
+    <section className="flex flex-col gap-3">
       <img
         className=" rounded-[.6rem] border-4 border-[#D0B8AC]"
         src="images/we-are-img.jpg"
@@ -15,7 +15,7 @@ const WeAreFlowery = () => {
         Date, Time and personal message. With flowery you don't have to worry
         about any thing.
       </p>
-    </div>
+    </section>
   );
 };
 
