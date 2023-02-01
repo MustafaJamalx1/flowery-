@@ -6,9 +6,23 @@ function App() {
         <p className="hidden lg:block md:block sm:block">
           The website is underdevelopment so only the mobile version works for
           now. we appreicate your understanding.
+          <a
+            className="underline pr-1"
+            href={`https://www.figma.com/file/Zya2UojDkBpUbQqXfJmQJx/flowery-(Copy)?node-id=0%3A1&t=0eplBymbrJK3gkTW-1`}
+          >
+            Click here
+          </a>
+          view the design file
         </p>
-        <p>
+        <p className="lg:hidden md:hidden sm:hidden block">
           The website is underdevelopment. we appreicate your understanding.
+          <a
+            className="underline pr-1"
+            href={`https://www.figma.com/file/Zya2UojDkBpUbQqXfJmQJx/flowery-(Copy)?node-id=0%3A1&t=0eplBymbrJK3gkTW-1`}
+          >
+            Click here
+          </a>{" "}
+          to view the design file
         </p>
       </div>
       <Mobile />
