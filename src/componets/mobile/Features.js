@@ -1,5 +1,5 @@
 import React from "react";
-import Feature from "./parts/Feature";
+import Feature from "../parts/Feature";
 const Features = () => {
   return (
     <section className="flex flex-col justify-center gap-10">

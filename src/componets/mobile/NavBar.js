@@ -1,7 +1,7 @@
 import React from "react";
-import Line from "./parts/Line";
-import NavLink from "./parts/NavLink";
-import HamBurgerMenu from "./parts/HamBurgerMenu";
+import Line from "../parts/Line";
+import NavLink from "../parts/NavLink";
+import HamBurgerMenu from "../parts/HamBurgerMenu";
 const NavBar = (props) => {
   return (
     <>

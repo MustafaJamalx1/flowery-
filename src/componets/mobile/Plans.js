@@ -1,5 +1,6 @@
 import React from "react";
-// import Plan1 from "./parts/Plan1";
+import Plan1 from "../parts/Plan1";
+
 const Plans = () => {
   return (
     <section className="">
@@ -9,9 +10,9 @@ const Plans = () => {
       >
         SUBSCRIPTIONS
       </p>
-      <h2 className="mt-10 pl-3 text-2xl font-semibold">Here's our plans</h2>
-      <div className="flex flex-col justify-center items-center">
-        {/* <Plan1 /> */}
+      <h2 className="pl-3 mt-10 text-2xl font-semibold">Here's our plans</h2>
+      <div className="flex flex-col items-center justify-center">
+        <Plan1 />
       </div>
     </section>
   );

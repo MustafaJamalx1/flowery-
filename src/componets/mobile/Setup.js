@@ -1,6 +1,6 @@
 import React from "react";
-import Steps from "./parts/Steps";
-import Slope from "./parts/Slope";
+import Steps from "../parts/Steps";
+import Slope from "../parts/Slope";
 const Setup = () => {
   return (
     <section className="py-6 flex flex-col justify-center">
