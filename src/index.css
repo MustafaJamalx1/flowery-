@@ -24,7 +24,10 @@
   .ham1 {
     transition: all ease 400ms 50ms;
   }
+  .plan-section-color {
+    box-shadow: 60px 0 0 #732b2b, -60px 0#732b2b;
+  }
 }
-.plan-section-color {
-  box-shadow: 60px 0 0 #732b2b, -60px 0#732b2b;
+.fadin {
+  transition: all ease-out 1000ms;
 }

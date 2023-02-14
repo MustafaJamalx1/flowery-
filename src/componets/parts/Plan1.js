@@ -2,13 +2,38 @@ import React from "react";
 import PlanListItem from "./PlanListItem";
 import SubButton from "./SubButton";
 const Plan1 = () => {
+  const options = {
+    root: null,
+    rootMargin: "100px",
+    threshold: 0,
+  };
+  const observer = new IntersectionObserver(function (entries) {
+    const ent = entries[0];
+
+    console.log(ent.isIntersecting);
+    if (ent.isIntersecting) {
+      const div = document.querySelector(".div-test");
+      div.classList.replace("opacity-0", "opacity-1");
+      div.classList.add("-translate-y-[5rem]");
+    }
+  }, options);
+  window.onload = function () {
+    const target = document.querySelector(".div-test");
+    console.log(target);
+    observer.observe(target);
+  };
   return (
     <div
-      className="bg-[url('./../public/images/first-plan-bg.jpg')] w-[85%] bg-cover
+      className="bg-[url('./../public/images/essintial-flower-bg.jpg')] w-[85%] bg-cover
     rounded-[.4rem] text-[#341313] px-6 py-12 flex flex-col gap-4 min-h-[60vh] "
     >
-      <h4 className="text-3xl font-bold ">Essential</h4>
-      <p className="mr-10 font-bold ">With this plan you get flowers on</p>
+      <h4 className="text-3xl font-extrabold ">Essential</h4>
+      <p
+        className="mr-10 font-[900]
+    "
+      >
+        With this plan you get flowers on
+      </p>
 
       <PlanListItem title="Valentines" />
       <PlanListItem title="Christmas" />

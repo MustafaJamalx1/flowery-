@@ -51,7 +51,7 @@ const Mobile = () => {
       <Line />
       <Gallery />
       <Line />
-      <div className="w-full bg-[#732B2B] text-[#FFFFFF] py-6 plan-section-color -mt-8">
+      <div className="w-full bg-[#732B2B] text-[#FFFFFF] py-6 plan-section-color -mt-8  fadin div-test opacity-1 ">
         <Plans />
       </div>
     </div>
