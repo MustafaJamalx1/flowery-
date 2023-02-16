@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col gap-3">
+    <section className="flex flex-col gap-3 mb-6">
       <img
         className=" rounded-[.6rem] border-4 border-[#D0B8AC]"
         src="images/hero-mobile-img.jpg"

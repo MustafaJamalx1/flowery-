@@ -10,7 +10,7 @@ rounded-[.4rem] text-[#341313]  pt-14 flex flex-col gap-4 min-h-[70vh] "
       <h4 className="text-3xl font-bold text-center mt-4 ">"Caring Husband"</h4>
       <div className="ml-10 flex flex-col gap-4 pl-3">
         <p
-          className="mr-10 font-bold mb-3 -mt-3
+          className="mr-10 font-semibold mb-3 -mt-3
         "
         >
           With this plan you get flowers on

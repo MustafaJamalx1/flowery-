@@ -37,7 +37,7 @@ const Mobile = () => {
     return "";
   }
   return (
-    <div className=" flex flex-col gap-8 ">
+    <div className=" flex flex-col gap-6  xl:hidden py-6 px-4 ">
       <NavBar func={handleClick} />
       <Hero />
       <Line />
@@ -51,7 +51,7 @@ const Mobile = () => {
       <Line />
       <Gallery />
       <Line />
-      <div className="w-full bg-[#732B2B] text-[#FFFFFF] py-6 plan-section-color -mt-8  fadin div-test opacity-1 ">
+      <div className="w-full bg-[#732B2B] text-[#FFFFFF] py-6 plan-section-color -mt-8    ">
         <Plans />
       </div>
     </div>

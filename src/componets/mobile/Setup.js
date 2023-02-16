@@ -3,8 +3,8 @@ import Steps from "../parts/Steps";
 import Slope from "../parts/Slope";
 const Setup = () => {
   return (
-    <section className="py-6 flex flex-col justify-center">
-      <h2 className="text-center font-semibold text-2xl mb-24">
+    <section className="py-6 flex flex-col justify-center mt-6">
+      <h2 className="text-center font-bold text-3xl mb-24 xl:text-6xl">
         How to start with Flowery
       </h2>
       <Steps title="Fill the required information" number="1" />

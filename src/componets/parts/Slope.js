@@ -5,7 +5,7 @@ const Slope = (props) => {
     <img
       src={props.reverse ? "images/slope.svg" : "images/slope-reverse.svg"}
       alt=""
-      className="px-[3.2rem]"
+      className="px-[3.2rem] xl:px-[6.4rem]"
     />
   );
 };
