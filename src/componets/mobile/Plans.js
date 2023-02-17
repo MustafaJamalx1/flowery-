@@ -12,7 +12,7 @@ const Plans = () => {
         SUBSCRIPTIONS
       </p>
       <h2 className="pl-3 mb-10 text-3xl font-bold">Here's our plans</h2>
-      <div className="flex flex-col items-center justify-center gap-10">
+      <div className="flex flex-col items-center justify-center gap-10 xl:flex-row">
         <Plan1 />
         <Plan2 />
         <Plan3 />
